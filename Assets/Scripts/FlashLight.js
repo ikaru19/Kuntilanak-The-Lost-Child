@@ -41,26 +41,27 @@ function Update()
 	{
 		batteryLife -= Time.deltaTime * lightDrain;
 	}
-		if(lightOn && batteryLife <= 0.4)
+		if(lightOn && batteryLife <= 5)
 	{
-		flashlightLightSource.light.intensity = 5;
+		 flashlightLightSource.GetComponent.<Light>().intensity = 5;
 	}
 		if(lightOn && batteryLife <= 0.3)
 	{
-		flashlightLightSource.light.intensity = 4;
+		 flashlightLightSource.GetComponent.<Light>().intensity = 5;
 	}
 	if(lightOn && batteryLife <= 0.2)
 	{
-		flashlightLightSource.light.intensity = 3;
+	 flashlightLightSource.GetComponent.<Light>().intensity = 5;
 	}
 		if(lightOn && batteryLife <= 0.1)
 	{
-		flashlightLightSource.light.intensity = 2;
+		 flashlightLightSource.GetComponent.<Light>().intensity = 5;
 	}
 			if(lightOn && batteryLife <= 0)
 	{
-		flashlightLightSource.light.intensity = 0;
+		 flashlightLightSource.GetComponent.<Light>().intensity = 0;
 	}
+	
 	
 
 	
