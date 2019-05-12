@@ -47,15 +47,15 @@ function Update()
 	}
 		if(lightOn && batteryLife <= 0.3)
 	{
-		 flashlightLightSource.GetComponent.<Light>().intensity = 5;
+		 flashlightLightSource.GetComponent.<Light>().intensity = 1;
 	}
 	if(lightOn && batteryLife <= 0.2)
 	{
-	 flashlightLightSource.GetComponent.<Light>().intensity = 5;
+	 flashlightLightSource.GetComponent.<Light>().intensity = 0.7;
 	}
 		if(lightOn && batteryLife <= 0.1)
 	{
-		 flashlightLightSource.GetComponent.<Light>().intensity = 5;
+		 flashlightLightSource.GetComponent.<Light>().intensity = 0.5;
 	}
 			if(lightOn && batteryLife <= 0)
 	{
