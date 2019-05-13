@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: 8d7fae77167bc1941b28aab7b1b4f04e
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - flashlightLightSource: {instanceID: 0}
+  - progressBarEmpty: {fileID: 2800000, guid: c5bac07d6953f27438bf5d92cd74f39d, type: 3}
+  - progressBarFull: {fileID: 2800000, guid: 903033d049993d14ab58a80537f878a0, type: 3}
+  - soundTurnOn: {instanceID: 0}
+  - soundTurnOff: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
