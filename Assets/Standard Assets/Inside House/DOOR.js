@@ -11,7 +11,7 @@ function Update ()
 {
 	if (Input.GetKeyDown(KeyCode.E) && Door == true && Key.active == false)
 	{
-	GameObject.Find("Door").animation.Play("dooropen");
+	GameObject.Find("Door").animation.Play("DoorAnimation");
 	}
 }
 

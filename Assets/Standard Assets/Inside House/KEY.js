@@ -5,7 +5,7 @@ function Update ()
 {
  	if (Input.GetKeyDown(KeyCode.E) && playerNextToKey == true)
 	{
-	TheKey.active = true;
+	TheKey.active = false;
 	}
 }
 
