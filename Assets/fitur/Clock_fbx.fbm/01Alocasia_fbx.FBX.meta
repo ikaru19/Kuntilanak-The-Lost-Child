@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: ae9317be3bab16041b8b915ffeefcc11
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Dirt
+    100004: Dirt02
+    100006: Leaf.000
+    100008: Leaf.008
+    100010: Leaf.009
+    100012: Leaf.010
+    100014: Leaf.011
+    100016: Leaf006.000
+    100018: Leaf007
+    100020: leaf02.000
+    100022: leaf03.000
+    100024: leaf05.000
+    100026: lef04.000
+    100028: Moh
+    100030: Moh_MeshPart0
+    100032: Moh_MeshPart1
+    100034: Pot
+    100036: stem
+    400000: //RootNode
+    400002: Dirt
+    400004: Dirt02
+    400006: Leaf.000
+    400008: Leaf.008
+    400010: Leaf.009
+    400012: Leaf.010
+    400014: Leaf.011
+    400016: Leaf006.000
+    400018: Leaf007
+    400020: leaf02.000
+    400022: leaf03.000
+    400024: leaf05.000
+    400026: lef04.000
+    400028: Moh
+    400030: Moh_MeshPart0
+    400032: Moh_MeshPart1
+    400034: Pot
+    400036: stem
+    2300000: Dirt
+    2300002: Dirt02
+    2300004: Leaf.000
+    2300006: Leaf.008
+    2300008: Leaf.009
+    2300010: Leaf.010
+    2300012: Leaf.011
+    2300014: Leaf006.000
+    2300016: Leaf007
+    2300018: leaf02.000
+    2300020: leaf03.000
+    2300022: leaf05.000
+    2300024: lef04.000
+    2300026: Moh_MeshPart0
+    2300028: Moh_MeshPart1
+    2300030: Pot
+    2300032: stem
+    3300000: Dirt
+    3300002: Dirt02
+    3300004: Leaf.000
+    3300006: Leaf.008
+    3300008: Leaf.009
+    3300010: Leaf.010
+    3300012: Leaf.011
+    3300014: Leaf006.000
+    3300016: Leaf007
+    3300018: leaf02.000
+    3300020: leaf03.000
+    3300022: leaf05.000
+    3300024: lef04.000
+    3300026: Moh_MeshPart0
+    3300028: Moh_MeshPart1
+    3300030: Pot
+    3300032: stem
+    4300000: Leaf.010
+    4300002: Pot
+    4300004: Moh_MeshPart0
+    4300006: Moh_MeshPart1
+    4300008: Dirt02
+    4300010: stem
+    4300012: Leaf.000
+    4300014: lef04.000
+    4300016: leaf05.000
+    4300018: leaf02.000
+    4300020: Leaf006.000
+    4300022: leaf03.000
+    4300024: Leaf007
+    4300026: Leaf.008
+    4300028: Leaf.011
+    4300030: Leaf.009
+    4300032: Dirt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
