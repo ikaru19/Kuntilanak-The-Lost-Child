@@ -1,8 +1,6 @@
 ﻿var TheKey : GameObject;
 private var playerNextToKey = false;
 
-public var guiSkin : GUISkin;
-
 function Update () 
 {
  	if (Input.GetKeyDown(KeyCode.E) && playerNextToKey == true)
@@ -25,15 +23,4 @@ function OnTriggerExit (theCollider : Collider)
 	{
 		playerNextToKey = false;
 	}
-}
-
-function OnGUI ()
-{
-	if(playerNextToKey == true)
-	{
-		GUI.skin = guiSkin;
-		GUI.Label (Rect (Screen.width/2-50, Screen.height/2-55, 120, 50), "Pick up key press E ");
-	
-	}
-
 }
