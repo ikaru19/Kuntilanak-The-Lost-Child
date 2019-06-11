@@ -5,7 +5,6 @@ var lightOn : boolean = true;
 var lightDrain : float = 0.1;
 private static var batteryLife : float = 0.0;
 var maxBatteryLife : float = 2.0;
-var battery : String;
 
 private static var batteryPower : float = 1;
 
@@ -14,8 +13,6 @@ var pos : Vector2 = new Vector2(20,40);
 var size : Vector2 = new Vector2(60,20);
 var progressBarEmpty : Texture2D;
 var progressBarFull : Texture2D;
-public var guiSkin : GUISkin;
-
 
 var soundTurnOn : AudioClip;
 var soundTurnOff : AudioClip;
@@ -34,8 +31,6 @@ static function AlterEnergy (amount : int)
 
 }
 
-	
-	
 
 
 function Update()
@@ -92,8 +87,6 @@ function Update()
 			lightOn = true;
 		}
 	}
-	
-		battery = batteryLife.ToString("#.00");
 }
 	
 	/////// PIC  ///////////
@@ -101,16 +94,15 @@ function OnGUI()
 {
  
     // draw the background:
-//    GUI.BeginGroup (new Rect (pos.x, pos.y, size.x, size.y));
-        //GUI.Box (Rect (0,0, size.x, size.y),progressBarEmpty);
-		
-		 	GUI.Label (Rect (Screen.width-200, 0 , size.x, size.y), "Battery :"+battery);
-        // draw the filled-in part:
-    //    GUI.BeginGroup (new Rect (0, 0, size.x * barDisplay, size.y));
-      //      GUI.Box (Rect (0,0, size.x, size.y),progressBarFull);
-       // GUI.EndGroup ();
+    GUI.BeginGroup (new Rect (pos.x, pos.y, size.x, size.y));
+        GUI.Box (Rect (0,0, size.x, size.y),progressBarEmpty);
  
- //   GUI.EndGroup ();
+        // draw the filled-in part:
+        GUI.BeginGroup (new Rect (0, 0, size.x * barDisplay, size.y));
+            GUI.Box (Rect (0,0, size.x, size.y),progressBarFull);
+        GUI.EndGroup ();
+ 
+    GUI.EndGroup ();
  
 } 
  	
