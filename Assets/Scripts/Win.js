@@ -5,5 +5,5 @@ function Start () {
 }
 
 function OnTriggerEnter () {
-	Application.LoadLevel("MainMenu");
+	Application.LoadLevel("TheEnd");
 }
