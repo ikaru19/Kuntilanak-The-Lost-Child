@@ -23,7 +23,7 @@ function OnMouseUp()
 	}
 	else
 	{
-		Application.LoadLevel(1);				//If you click on other button it loads game!
+		Application.LoadLevel(0);				//If you click on other button it loads game!
 	}
 
 }

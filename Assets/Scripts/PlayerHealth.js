@@ -14,7 +14,7 @@ function Update () {
 	healthString = playerHealth.ToString("#");
 		
 	if(playerHealth < 0){
-		Application.LoadLevel("HouseGame");
+		Application.LoadLevel("MainMenu");
 	}
 	
 	
