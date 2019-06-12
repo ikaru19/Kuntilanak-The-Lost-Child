@@ -21,12 +21,12 @@ function Update () {
 	if(Vector3.Distance(transform.position,Enemy.position) <= 2)
 		{
 				
-			playerHealth -= 1;
+			playerHealth -= 0.05;
 			healthString = playerHealth.ToString("#");
 		}
 	if(Vector3.Distance(transform.position,Enemy.position) >= 2 && playerHealth < 100){	
 		
-			playerHealth += 0.05;
+			playerHealth += 0.02;
 		}
 		
 	
